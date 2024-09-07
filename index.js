@@ -93,7 +93,7 @@ client.once('ready', async () => {
        
         await statusMessage.edit({ embeds: [errorEmbed] });
       }
-    }, 60000); 
+    }, 5000); 
   } else {
     console.error(`Channel "${CHANNEL_NAME}" not found!`);
   }
