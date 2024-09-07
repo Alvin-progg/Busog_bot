@@ -79,6 +79,7 @@ client.once('ready', async () => {
 
         
         await statusMessage.edit({ embeds: [updatedEmbed] });
+        console.log("Lets go")
       } catch (error) {
         console.error(error);
 
