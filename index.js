@@ -1,6 +1,12 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { status } = require('minecraft-server-util');
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => res.send('Bot is running'));
+
+app.listen(process.env.PORT || 3000, () => console.log('HTTP server is running'));
 
 // Replace with your bot token and server details
 const DISCORD_TOKEN = process.env.Token; // Add your bot token in .env file

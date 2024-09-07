@@ -2,14 +2,13 @@
   "dependencies": {
     "discord.js": "^14.16.1",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "minecraft-server-util": "^5.4.4"
   },
   "name": "busog_bot",
   "version": "1.0.0",
   "description": "Busog bot",
   "main": "index.js",
-  
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
