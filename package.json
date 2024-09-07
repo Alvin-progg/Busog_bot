@@ -8,9 +8,11 @@
   "version": "1.0.0",
   "description": "Busog bot",
   "main": "index.js",
+  
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Alvin-progg",
   "license": "MIT"
