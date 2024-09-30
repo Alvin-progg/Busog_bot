@@ -52,7 +52,7 @@ client.once('ready', async () => {
       const errorEmbed = new EmbedBuilder()
         .setColor(0xed4245) // Set color (red) for error
         .setTitle('Minecraft Server Status')
-        .setDescription('The Busog server is offline or the address is incorrect.')
+        .setDescription('The Busog server is offline.')
         .setTimestamp()
         .setFooter({ text: 'Server Status Update' });
 
@@ -87,7 +87,7 @@ client.once('ready', async () => {
         const errorEmbed = new EmbedBuilder()
           .setColor(0xed4245) 
           .setTitle('Minecraft Server Status')
-          .setDescription('The Busog server is offline or the address is incorrect.')
+          .setDescription('The Busog server is offline.')
           .setTimestamp()
           .setFooter({ text: 'Server Status Update' });
 
